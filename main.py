@@ -1,6 +1,6 @@
 import torch
 from torch.utils.data import DataLoader
-from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 
 import argparse
 import numpy as np
