@@ -1,5 +1,5 @@
 # HCVFlow
-Hybrid Cost Volume for Memory-Efficient Optical Flow <br/>
+## Hybrid Cost Volume for Memory-Efficient Optical Flow <br/>
 Yang Zhao*, Gangwei Xu*, Gang Wu <br/>
 \* denotes equal contribution.
 
@@ -64,7 +64,7 @@ datasets
 │   ├── hd1k_flow_gt
 │   ├── hd1k_flow_uncertainty
 │   └── hd1k_input
-├── KITTI
+├── KITTI_2015
 │   ├── testing
 │   └── training
 ├── Sintel
