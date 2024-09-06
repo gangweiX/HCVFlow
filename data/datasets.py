@@ -103,7 +103,7 @@ class FlowDataset(data.Dataset):
 
 class MpiSintel(FlowDataset):
     def __init__(self, aug_params=None, split='training',
-                 root='/data/Flow/Sintel/',
+                 root='./datasets/Sintel/',
                  dstype='clean'):
         super(MpiSintel, self).__init__(aug_params)
 
@@ -125,7 +125,7 @@ class MpiSintel(FlowDataset):
 
 class FlyingChairs(FlowDataset):
     def __init__(self, aug_params=None, split='train',
-                 root='/data/Flow/FlyingChairs/data',
+                 root='./datasets/FlyingChairs/data',
                  ):
         super(FlyingChairs, self).__init__(aug_params)
 
@@ -143,7 +143,7 @@ class FlyingChairs(FlowDataset):
 
 
 class FlyingThings3D(FlowDataset):
-    def __init__(self, aug_params=None, root='/data/Flow/FlyingThings3D/',
+    def __init__(self, aug_params=None, root='./datasets/FlyingThings3D/',
                  dstype='frames_cleanpass'):
         super(FlyingThings3D, self).__init__(aug_params)
 
@@ -172,7 +172,7 @@ class FlyingThings3D(FlowDataset):
 
 class KITTI(FlowDataset):
     def __init__(self, aug_params=None, split='training',
-                 root='/data/KITTI/KITTI_2015/',
+                 root='./datasets/KITTI_2015/',
                  ):
         super(KITTI, self).__init__(aug_params, sparse=True)
         if split == 'testing':
@@ -192,7 +192,7 @@ class KITTI(FlowDataset):
 
 
 class HD1K(FlowDataset):
-    def __init__(self, aug_params=None, root='/data/Flow/HD1K'):
+    def __init__(self, aug_params=None, root='./datasets/HD1K'):
         super(HD1K, self).__init__(aug_params, sparse=True)
 
         seq_ix = 0
