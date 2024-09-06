@@ -28,7 +28,7 @@ pip install scipy
 
 ## Demos
 
-All pretrained models can be downloaded from [google drive](https://drive.google.com/file/d/1IzcmvxpY90DuXYkGkwitxslO1Psq52OI/view?usp=sharing).
+All pretrained models can be downloaded from [google drive](https://drive.google.com/drive/folders/1Q2E2f4S5Vym9jp84B6DIhtzYnQEFQ4U6?usp=drive_link).
 
 
 
